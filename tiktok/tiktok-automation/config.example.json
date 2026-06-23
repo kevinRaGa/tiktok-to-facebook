@@ -1,0 +1,7 @@
+{
+  "tiktok_username": "@tu_usuario_de_tiktok",
+  "facebook_page_id": "ID_DE_TU_PAGINA",
+  "facebook_access_token": "TOKEN_DE_ACCESO_DE_FACEBOOK",
+  "post_interval_hours": 24,
+  "start_from_video_id": null
+}
