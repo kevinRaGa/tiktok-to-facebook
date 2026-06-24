@@ -114,7 +114,7 @@ Una sola vez (la primera):
 1. Abre PowerShell como Administrador
    (clic derecho -> "Ejecutar como administrador")
 2. Navega a la carpeta:
-   cd C:\Users\salvatore\Desktop\tiktok\tiktok-automation
+   cd C:\tiktok\tiktok-automation
 3. Ejecuta el setup:
    .\setup.ps1
 4. ¡Listo! Ya está programado (revisa cada 15 minutos).
@@ -130,7 +130,7 @@ Antes de esperar la tarea automática, prueba que todo
 funciona abriendo PowerShell (NO como administrador) y
 escribe:
 
-  cd C:\Users\salvatore\Desktop\tiktok\tiktok-automation
+  cd C:\tiktok\tiktok-automation
   python tiktok_poster.py
 
 Si ves mensajes de error, revisa que config.json tenga
@@ -163,7 +163,7 @@ VER LISTA DE VIDEOS
 
 Para ver todos los videos de TikTok con su ID (número):
 
-  cd C:\Users\salvatore\Desktop\tiktok\tiktok-automation
+  cd C:\tiktok\tiktok-automation
   python tiktok_poster.py --list-videos
 
 Esto muestra algo como:
